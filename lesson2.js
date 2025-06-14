@@ -84,7 +84,7 @@ function appendToDisplay(value) {
     if (event.key >= '0' && event.key <='9');{
             appendToDisplay(event.key); 
     } else if (event.key === '.') {
-            appendToDisplay('.'); 
+        appendToDisplay('.'); 
     } else if (event.key ==='+')  {     
             appendToDisplay('+');
     } else if (event.key === '-') {
@@ -102,8 +102,10 @@ function appendToDisplay(value) {
     } else if (event.key ==="Backspace") {
         deleteLast();
     }
-    }  
-  )
+    }
+
+    }
+  })
 
   document.addEventListener('DOMContentLoaded', function()) {
     console.log('Calculator loaded successfully');
